@@ -1,0 +1,66 @@
+{
+  "release_id": "CoRI-DGAT-001-R1",
+  "title": "Thalean Golden Drift: Dual-Golden Aperiodic Transport from Finite Native Incidence Geometry",
+  "release_status": "SOURCE_REPLAYED_GIT_SOURCE_LOCK_PUBLISHED",
+  "certification_scope": "exact finite mathematical audit; not physical or historical origin certification",
+  "original_certificate_status": "SOURCE_REPLAYED_WITH_UNTRACKED_FIXTURE",
+  "source_lock": {
+    "repository": "rookinc/native-g60-hodge-mechanics",
+    "branch": "main",
+    "commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+    "fixture_path": "data/g9000/native.json",
+    "fixture_sha256": "9d7729b179da8919d2713701a8e4ef4eebc77c9baef4c0051a1bcf5327ba40e6",
+    "push_evidence": "User-provided successful git push stdout, main e5169be..4769486",
+    "remote_independently_checked": false,
+    "historical_origin_certified": false
+  },
+  "replay": {
+    "captured_files": 18,
+    "file_hashes_verified": 18,
+    "audit_scripts_replayed": 6,
+    "matching_json_receipts": 6,
+    "independent_algebra_checks": 10,
+    "evidence": "prior source-replayed certificate and replay receipt"
+  },
+  "mathematical_claims": [
+    "12-dimensional G60 golden eigenspace",
+    "registered pentagon Smith invariants (1^11,2)",
+    "K^2=M^2=5I",
+    "Z M=M Z and Z K=-K Z",
+    "Q=MK/5 is orthogonal and infinite order",
+    "normalized golden involutions generate D_infinity"
+  ],
+  "proof_witness": {
+    "minimal_polynomial": "x^8+(14/25)*x^4+1",
+    "infinite_order_reason": "monic rational minimal polynomial is not integral"
+  },
+  "limitations": [
+    "G60 fixture historical origin not established by forward-looking commit",
+    "No Project44 12-history-to-Project43 pentagon-label identification",
+    "No physical time, force, or observer law",
+    "No independent peer review",
+    "Release manifest is hash-locked but not cryptographically signed or tagged in remote Git"
+  ],
+  "included_files": {
+    "CoRI-DGAT-001-native-provenance.tar.gz": {
+      "sha256": "64dba623d7c88a44db807eb33195d6568a11bfe1ed9b8143a4840193b3c7bec1",
+      "bytes": 43346
+    },
+    "CoRI-DGAT-CERTIFICATE-001.json": {
+      "sha256": "df26aee900ef5e60ebc1a6ae5a58eee23a405c5a3ffafd985de86792b6da45be",
+      "bytes": 1112
+    },
+    "CoRI_Thalean_Golden_Drift_Drafting_Paper_v0_1.pdf": {
+      "sha256": "412b8fec2b44c4dd690ce012dff9fef13e9598d0898d610573b1be4db8247c65",
+      "bytes": 97074
+    },
+    "replay_receipt.json": {
+      "sha256": "cb4464f6499a45a6fb2073521c00676a69ddbdee332d028536df2155e0eeba47",
+      "bytes": 919
+    },
+    "source_lock_receipt_transcribed.json": {
+      "sha256": "4244073fe3c8c4e908f7b836ce636cc1791a14a96bed2f2c337d8af7a4f09d0a",
+      "bytes": 811
+    }
+  }
+}

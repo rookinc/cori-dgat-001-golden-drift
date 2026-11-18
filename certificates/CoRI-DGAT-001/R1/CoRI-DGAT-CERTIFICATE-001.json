@@ -1,0 +1,22 @@
+{
+  "certificate_id": "CoRI-DGAT-001",
+  "title": "Thalean Golden Drift: Dual-Golden Aperiodic Transport from Finite Native Incidence Geometry",
+  "status": "SOURCE_REPLAYED_WITH_UNTRACKED_FIXTURE",
+  "certified_claims": [
+    "native 12-dimensional golden adjacency sector",
+    "registered pentagon Smith invariant profile",
+    "native conference and lifted-support Gram identities",
+    "dual golden grading identities",
+    "infinite-order orthogonal product and infinite dihedral group"
+  ],
+  "proof_witness": {
+    "minimal_polynomial": "(5*x**4 - 6*x**2 + 5)*(5*x**4 + 6*x**2 + 5)/25",
+    "non_integral_coefficient": "14/25"
+  },
+  "limitations": [
+    "G60 native.json is untracked in the captured Git worktree; SHA256 locks bytes, not historical commit provenance",
+    "The replay runs the captured audit implementations; independent algebraic identities also checked, but a fully separate native construction implementation is not supplied",
+    "No claim of a physical clock or temporal dynamics",
+    "No identification of Project 44 twelve-history labels with Project 43 pentagon indices"
+  ]
+}

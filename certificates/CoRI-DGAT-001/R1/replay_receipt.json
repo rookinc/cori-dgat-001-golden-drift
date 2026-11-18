@@ -1,0 +1,23 @@
+{
+  "certificate": "CoRI-DGAT-001",
+  "status": "SOURCE_REPLAYED_EXACT_ALGEBRA",
+  "date_utc": "2026-11-18T17:31:37.497494+00:00",
+  "source_archive_sha256": "64dba623d7c88a44db807eb33195d6568a11bfe1ed9b8143a4840193b3c7bec1",
+  "source_files_hash_verified": 18,
+  "replay_scripts_successful": 6,
+  "independent_exact_checks": {
+    "M_squared_5I": true,
+    "K_squared_5I": true,
+    "H_equals_20I_plus_4M": true,
+    "M_commutes_grading": true,
+    "K_anticommutes_grading": true,
+    "Q_orthogonal": true,
+    "Q_grading_reversal": true,
+    "Q_det_1": true,
+    "Q_minpoly_annihilates": true,
+    "Q_infinite_order_nonintegral_monic_minpoly": true
+  },
+  "original_result_json_reproduced_byte_for_byte": 6,
+  "native_g60_fixture_git_status": "untracked in capture manifest",
+  "scope": "Exact finite mathematical reconstruction; not a claim of physical time, observer dynamics, or a sealed historical Git commit."
+}

@@ -1,0 +1,16 @@
+{
+  "certificate_id": "CoRI-DGAT-001",
+  "receipt_type": "G60_SOURCE_FIXTURE_LOCK",
+  "status": "GIT_TRACKED_HASH_VERIFIED",
+  "created_utc": "2026-11-18T17:35:29.747770+00:00",
+  "repository": "rookinc/native-g60-hodge-mechanics",
+  "branch": "main",
+  "path": "data/g9000/native.json",
+  "sha256": "9d7729b179da8919d2713701a8e4ef4eebc77c9baef4c0051a1bcf5327ba40e6",
+  "repository_head": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "file_last_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "new_commit_created": true,
+  "scope": "forward-looking Git registration of captured bytes; not historical origin certification",
+  "native_replay_status": "previously source-replayed; no replay performed by sealing script",
+  "evidence": "Termux stdout supplied by user; original receipt JSON not uploaded"
+}
